@@ -1,11 +1,3 @@
----
----
-
-# PigeonFishStudio.github.io
-
-The Official site for Pigeon Fish Studio
-
-## Our Work
-
-- PONG SMASH (GGJ2024)
-- [PORTAL NOT 3](https://play.unity.com/mg/other/webgl-udd)
+# 鸽子鱼工作室 Pigeon Fish Studio
+鸽子鱼工作室 -- 兴趣使然的游戏开发者
+This is the official site for Pigeon Fish studio. We are a group of game developer driven by interest.

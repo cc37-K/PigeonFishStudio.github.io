@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #91B7AE;
+    color: snow;
+}
+
+.header-image {
+    width: 13%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#our-team, #our-work{
+    margin: 20px;
+    text-align: center;
+}
+
+.team-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;       /* Allows wrapping if screen is too small */
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+    flex-basis: 22%;        /* Adjust the width of each team member's card */
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;     /* makes images circular */
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 5px;
+}
+
+.game-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game {
+    flex-basis: 50%;        /* Each game takes up 50% of the row */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    padding: 10px;          /* Optional padding for some space around each game */
+    text-align: center;     /* Centers the content inside each game */
+}
+
+.game img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+
+.game h3 {
+    text-align: center; /* Centering the heading */
+    margin-bottom: 10px; /* Optional: Adds space between the heading and description */
+}
+
+.game p {
+    text-align: left; /* Left-aligning the description */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
